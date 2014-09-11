@@ -31,7 +31,3 @@ class CircleCoordinatesGen
   end
 
 end
-
-cCalc = CircleCoordinatesGen.new(10,10)
-
-cCalc.generateCoordinates()
