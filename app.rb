@@ -3,7 +3,7 @@ class CircleCoordinatesGen
   attr_accessor :number_of_coordinates_to_generate
   attr_accessor :limit
 
-  Two = 2
+  TWO = 2
 
   def initialize(number_of_coordinates_to_generate, limit)
     @number_of_coordinates_to_generate = number_of_coordinates_to_generate
@@ -31,7 +31,7 @@ class CircleCoordinatesGen
   end
 
   def calculate_radius(x,y)
-    Math.sqrt(x.abs ** Two + y.abs ** Two)
+    Math.sqrt(x.abs ** TWO + y.abs ** TWO)
   end
 
 end
