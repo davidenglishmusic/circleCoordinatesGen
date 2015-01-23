@@ -6,8 +6,8 @@ describe CircleCoordinatesGen do
   end
 
   describe 'generate coordinates' do
-    it 'returns 5 coordinates when the object is set for 5 coordinates' do
-      expect(@test_object_001.generate_coordinates.size).to eq(5)
+    it 'returns 6 coordinates when the object is set for 5 coordinates (zero based)' do
+      expect(@test_object_001.generate_coordinates.size).to eq(6)
     end
   end
 
